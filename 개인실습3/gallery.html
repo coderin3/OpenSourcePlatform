@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Image Gallery</h2>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Cinque Terre
+    </div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Forest</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Aurora</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Peyto Lake</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>Cinque Terre means 'Five Lands'.<br>
+    It refers to the five beautiful villages located at the cliffs of the Ligurian coast in the northwestern Italy.<br>
+    Also, it has been designated on UNESCO.
+  </p>
+  <p>
+    It's hard to find exact location, but it seems like Waitakero Rangers in New Zealand's North Island Auckland.<br>
+    The dense forest and ferns in the picture are characteristics of New Zealand's native bush. <br>
+
+  </p>
+  <p>Aurora is a natural phenomena mainly observed in the Earth's polor regions.<br>
+  Especially, it is observed in Norway, Iceland, Finland, Sweden, Canada, and more.</p>
+  <p>
+    Peyto Lake is located at Rocky Mountains in Canada.<br>
+    It is popular with Emerald colored water and its shape, which looks like wolf's head. <br>
+    This beautiful color is created by fine rock particles, known as "glacial flour".
+  </p>
+</div>
+
+</body>
+</html>
