@@ -1,2 +1,2 @@
-# OpenSourcePlatform
-오소플 기록용
+# OpenSWPlatform
+오소플 개인과제 
